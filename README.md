@@ -6,17 +6,17 @@ api its sometimes quite hard to maintain state of canvas,
  i was facing the same problem when i decided to make a 
  mini game in canvas , so i first created a small library
  which woukd make working with canvas a breez.
- 
- ## Installation
+
+## Installation
  ```$xslt
 <script src="iCanvas.js"></script>
 ```
 or
 ```$xslt
-npm install iCanvas
+npm install icanvas
 ```
- ## Usage
- #### Basic
+## Usage
+#### Basic
 
  ```
         // create the iCanvas object
@@ -32,7 +32,7 @@ npm install iCanvas
 		    ctx.stroke();
         });
 ```
- #### Basic chaining
+#### Basic chaining
 ```$xslt
 		var canvas1 = new iCanvas();
         canvas1.appendTo(document.body);
@@ -49,7 +49,7 @@ npm install iCanvas
             }).render();
 ```
 
- #### callback handler
+#### callback handler
 ```$xslt
         var canvas1 = new iCanvas();
         canvas1.appendTo(document.body);
@@ -70,7 +70,7 @@ npm install iCanvas
             ctx.stroke();
         }
 ```
- #### Animation or Game loop
+#### Animation or Game loop
  ```$xslt
         var pos = 0;
 		var canvas1 = new iCanvas();
@@ -82,7 +82,7 @@ npm install iCanvas
 		    ctx.fillRect(100+pos,100,100,100);
         }).update();
 ```
- #### Methods
+#### Methods
  ```$xslt
         var canvas1 = new iCanvas();
 		canvas1.appendTo(document.body);
