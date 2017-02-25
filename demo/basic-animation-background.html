@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		html,body{
+			margin:0;
+		}
+
+		canvas{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+<script src="../iCanvas.js"></script>
+	<script>
+		var pos = 0;
+		var canvas1 = new iCanvas();
+		canvas1.appendTo(document.body);
+		canvas1.background("#000").draw(function (ctx, canvas) {
+			ctx.fillStyle = "#fff";
+			ctx.strokeStyle = "#fff";
+			pos++;
+		    ctx.fillRect(100+pos,100,100,100);
+        }).update();
+	</script>
+</body>
+</html>

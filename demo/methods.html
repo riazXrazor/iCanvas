@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		html,body{
+			margin:0;
+		}
+
+		canvas{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+<script src="../iCanvas.js"></script>
+	<script>
+		var pos = 0;
+		var canvas1 = new iCanvas();
+		canvas1.appendTo(document.body);
+		canvas1.draw(function (ctx, canvas) {
+			ctx.clearRect(0,0,canvas.width,canvas.height)
+		    ctx.fillStyle = "#000";
+			ctx.strokeStyle = "#000";
+            this.strokeText("Hello",300,100);
+            ctx.stroke();
+
+		    this.circle(100,100,20);
+		    this.line(100,100,400,400);
+		    this.rect(500,100,100,100)
+
+			ctx.stroke();
+        }).render();
+	</script>
+</body>
+</html>

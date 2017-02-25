@@ -1,0 +1,26 @@
+{
+  "name": "icanvas",
+  "version": "1.0.0",
+  "description": "iCanvas is wrapper over canvas. ",
+  "main": "iCanvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riazXrazor/iCanvas.git"
+  },
+  "keywords": [
+    "canvas",
+    "html5",
+    "canvas",
+    "2d",
+    "draw"
+  ],
+  "author": "Riaz Laskar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/riazXrazor/iCanvas/issues"
+  },
+  "homepage": "https://github.com/riazXrazor/iCanvas#readme"
+}
